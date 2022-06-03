@@ -78,7 +78,7 @@ git config --global user.email your.email@example.com
 
 
 
-### ➡️ Adding Files to Own Shared Class Repo
+### ➡️ Adding Files to Our Shared Class Repo
 
 - Clone the existing class repo
 
