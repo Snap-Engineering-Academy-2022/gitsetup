@@ -1,7 +1,7 @@
 # Add your files to Git + Make your first branch!
 
 
-### Adding Files to Your Own Git Repo
+### ➡️ Adding Files to Your Own Git Repo
 - Sign up for a GitHub account (free student account for extra perks)
 - On Github.com, create a new repo
 - Then in the terminal,  navigate to the folder that contains your current files. Once there, initiate your git repo:
@@ -70,7 +70,7 @@ git config --global user.email your.email@example.com
 - Set upstream for new branch and push
     
     
-    **Check your understanding:** 
+    ✅ **Check your understanding:** 
     
     - Can you explain add vs commit vs push in your own words?
     - What’s the difference between local and remote?
@@ -78,7 +78,7 @@ git config --global user.email your.email@example.com
 
 
 
-### Adding Files to Own Shared Class Repo
+### ➡️ Adding Files to Own Shared Class Repo
 
 - Clone the existing class repo
 
@@ -99,7 +99,7 @@ git checkout YOURBRANCHNAME
     - `git push -u origin branch_name` creates the remote branch (vs. `checkout -b`)
 
 
-### Extra Commands for Reference
+### 🧠 Extra Commands for Reference
 - Some more nifty commands you might find handy
 
 ```bash
