@@ -82,7 +82,7 @@ git config --global user.email your.email@example.com
 
 - Clone the existing class repo
 
-[Snap-Engineering-Academy-2022/class-website](https://github.com/Snap-Engineering-Academy-2022/class-website)
+[Snap-Engineering-Academy-2022/classwebsite](https://github.com/Snap-Engineering-Academy-2022/classwebsite)
 
 ```bash
 git branch
