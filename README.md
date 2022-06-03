@@ -1,6 +1,7 @@
-# gitsetup
+# Add your files to Git + Make your first branch!
 
 
+### Adding Files to Your Own Git Repo
 - Sign up for a GitHub account (free student account for extra perks)
 - On Github.com, create a new repo
 - Then in the terminal,  navigate to the folder that contains your current files. Once there, initiate your git repo:
@@ -77,7 +78,28 @@ git config --global user.email your.email@example.com
 
 
 
+### Adding Files to Own Shared Class Repo
 
+- Clone the existing class repo
+
+[Snap-Engineering-Academy-2022/class-website](https://github.com/Snap-Engineering-Academy-2022/class-website)
+
+```bash
+git branch
+
+git branch YOURBRANCHNAME
+
+git checkout YOURBRANCHNAME
+```
+
+- Repos can have branches!
+    - There’s a main branch (which should always be code that works)
+    - `git checkout -b` allows you to make your own branch
+- Add, commit, and push!
+    - `git push -u origin branch_name` creates the remote branch (vs. `checkout -b`)
+
+
+### Extra Commands for Reference
 - Some more nifty commands you might find handy
 
 ```bash
@@ -107,21 +129,3 @@ git stash pop
 "(use this to get the changes that you stashed away earlier)"
 ```
 
-
-- Clone the existing class repo
-
-[Snap-Engineering-Academy-2021/food-town](https://github.com/Snap-Engineering-Academy-2021/food-town)
-
-```bash
-git branch
-
-git branch YOURBRANCHNAME
-
-git checkout YOURBRANCHNAME
-```
-
-- Repos can have branches!
-    - There’s a main branch (which should always be code that works)
-    - `git checkout -b` allows you to make your own branch
-- Add, commit, and push!
-    - `git push -u origin branch_name` creates the remote branch (vs. `checkout -b`)
