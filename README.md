@@ -93,7 +93,7 @@ git branch YOURBRANCHNAME
 
 git checkout YOURBRANCHNAME
 ```
-    - `git checkout -b YOURBRANCHNAME` allows you to combine the previous commands into one command
+ 💡 `git checkout -b YOURBRANCHNAME` allows you to combine the previous commands into one command
 
 - Then add and commit your files as you would normally!
 - Then push to the remote repo. 
