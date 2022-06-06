@@ -2,27 +2,27 @@
 
 
 ## ➡️ Create Your Own Git Repo 
-- Sign up for a GitHub account (free student account for extra perks)
-- On Github.com, create a new repo
-- Then in the terminal,  navigate to the folder that contains your current files. Once there, initiate your git repo:
+1. Sign up for a GitHub account (free student account for extra perks)
+2. On Github.com, create a new repo
+3. Then in the terminal,  navigate to the folder that contains your current files. Once there, initiate your git repo:
 
 ```bash
 git init
 ```
 
-- To check your status of your repo at any point, use this:
+4. To check your status of your repo at any point, use this:
 
 ```bash
 git status
 ```
 
-- To add one file you want to commit:
+5. Now we want to add the HTML, CSS, JS files that you were just writing. To add one file you want to commit:
 
 ```bash
 git add FILENAME
 ```
 
-- To add all the files you want to commit at once:
+6. To add all the files you want to commit at once:
 
 ```bash
 git add .
@@ -34,40 +34,36 @@ git add -A
 "(no matter where you are in the repo)"
 ```
 
-- Now let's take the "screenshot"
+7. Now let's take a "screenshot" of your code by "committing" the code.
 
 ```bash
 git commit -m "add a message explaining what you did here"
 ```
 
-- We're going to create a new branch called 'main'
+8. We're going to create a new branch called 'main'
 
 ```bash
 git branch -M main
 ```
 
-- Now let's tell our git repo on our local computer which github repo to push up to!
+9. Now let's tell our git repo on our local computer which github repo to push up to!
 
 ```bash
 git remote add origin LINK_TO_YOUR_GITHUB_REPO
 ```
 
-- Finally, let's push
+10. Finally, let's push
 
 ```bash
 git push -u origin main
 ```
 
-- Git config in the terminal
+11. Git config in the terminal
 
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email your.email@example.com
 ```
-
-- Make a new folder and copy over Day #1 files (.html, .css, .js)
-- Stage and commit changes, with commit message
-- Set upstream for new branch and push
     
     
     ✅ **Check your understanding:** 
@@ -80,11 +76,11 @@ git config --global user.email your.email@example.com
 
 ## ➡️ Create A Branch on a Shared Repo
 
-- Clone the existing class repo
+1. Clone the existing class repo
 
 [Snap-Engineering-Academy-2022/classwebsite](https://github.com/Snap-Engineering-Academy-2022/classwebsite)
 
-- Then create your own branch within the `classwebsite` repo: 
+2. Then create your own branch within the `classwebsite` repo: 
 
 ```bash
 git branch
@@ -95,8 +91,8 @@ git checkout YOURBRANCHNAME
 ```
  💡 `git checkout -b YOURBRANCHNAME` allows you to combine the previous commands into one command
 
-- Then add and commit your files as you would normally!
-- Then push to the remote repo. 
+3. Then add and commit your files as you would normally!
+4. Then push to the remote repo. 
     - `git push -u origin branch_name` creates the remote branch (vs. `checkout -b`)
 
 
