@@ -89,7 +89,8 @@ git clone https://github.com/Snap-Engineering-Academy-2022/classwebsite
 ```bash
 git clone https://github.com/Snap-Engineering-Academy-2022/classwebsite
 ```
-3. create your own branch within the `classwebsite` repo (you can name the branch whatever you want; to keep it consistent, use your first name): 
+
+3. Create your own branch within the `classwebsite` repo (you can name the branch whatever you want; to keep it consistent, use your first name): 
 
 ```bash
 git branch
@@ -100,7 +101,12 @@ git checkout YOURBRANCHNAME
 ```
  💡 `git checkout -b YOURBRANCHNAME` allows you to combine the previous commands into one command
 
+3. Now, use `mkdir yourname` to create a new FOLDER inside this repo. 
+
+4. Copy-paste your index.html, style.css, and script.js from yesterday's activity (the album website you already started) INTO this new folder. 
+
 3. Then add and commit your files as you would normally!
+
 4. Then push to the remote repo. 
     - `git push -u origin branch_name` creates the remote branch (vs. `checkout -b`)
 
