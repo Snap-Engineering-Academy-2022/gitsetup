@@ -80,7 +80,16 @@ git config --global user.email your.email@example.com
 
 [Snap-Engineering-Academy-2022/classwebsite](https://github.com/Snap-Engineering-Academy-2022/classwebsite)
 
-2. Then create your own branch within the `classwebsite` repo: 
+
+```bash
+git clone https://github.com/Snap-Engineering-Academy-2022/classwebsite
+```
+
+2. Then go inside the repo you just cloned. 
+```bash
+git clone https://github.com/Snap-Engineering-Academy-2022/classwebsite
+```
+3. create your own branch within the `classwebsite` repo (you can name the branch whatever you want; to keep it consistent, use your first name): 
 
 ```bash
 git branch
