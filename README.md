@@ -110,6 +110,10 @@ git checkout YOURBRANCHNAME
 4. Then push to the remote repo. 
     - `git push -u origin branch_name` creates the remote branch (vs. `checkout -b`)
 
+5. If you did this correctly, you should see your branch on the classwebsite github!
+
+<img width="758" alt="image" src="https://user-images.githubusercontent.com/26272095/173702852-f57d7afe-d39e-4680-b177-2033617a8b8d.png">
+
 
 ## 🧠 Extra Commands for Reference
 - Some more nifty commands you might find handy
